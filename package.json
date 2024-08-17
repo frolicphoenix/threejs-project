@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "vercel --prod"
   },
   "keywords": [],
   "author": "pranjall",
@@ -13,6 +14,7 @@
   "dependencies": {
     "gsap": "3.12",
     "three": "^0.167.1",
+    "vercel": "^36.0.0",
     "vite": "^5.3.5"
   }
 }
